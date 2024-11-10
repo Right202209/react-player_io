@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+.App {
+  text-align: center;
+ }
+ .video_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+ 
+ .player__wrapper {
+    position: relative;
+ }
+ 
+ .player {
+    border: 2px solid #2cbdbf;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ h2 {
+  color: #2cbdbf;
+ }
